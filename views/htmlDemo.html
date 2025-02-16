@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB700 - HTML Demo</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Manoj</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+					<li class="nav-item active"><a class="nav-link" href="/htmlDemo">HTML Demo</a></li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+					<li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+					<li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<main class="col-md-12">
+
+					<h1>HTML Elements Demo</h1>
+
+					<h2>Tables</h2>
+					<table class="table table-bordered">
+						<caption>Student Course Table</caption>
+						<thead class="thead-light">
+							<tr>
+								<th>Student Name</th>
+								<th>Course</th>
+								<th>TA</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>John Doe</td>
+								<td>Web Development</td>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<td>Jane Smith</td>
+								<td>Database Systems</td>
+								<td>No</td>
+							</tr>
+							<tr>
+								<td>Michael Johnson</td>
+								<td>Cyber Security</td>
+								<td>Yes</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h2>Lists</h2>
+					<ul>
+						<li>Programming Languages
+							<ol>
+								<li>JavaScript</li>
+								<li>Python</li>
+								<li>Java</li>
+							</ol>
+						</li>
+						<li>Web Development Frameworks
+							<ul>
+								<li>React</li>
+								<li>Angular</li>
+								<li>Vue.js</li>
+							</ul>
+						</li>
+					</ul>
+
+					<h2>Images</h2>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder" width="300">
+                    <p> A snowboarder performs an impressive mid-air trick in a halfpipe competition, showcasing skill, balance, and precision.
+                         The snow-covered mountains in the background and the sponsor banners along the track highlight the excitement of extreme winter sports. With perfect form and control, the athlete soars high,
+                          making the moment both thrilling and inspiring. </p>
+
+					<h2>Audio</h2>
+					<audio controls>
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+						Your browser does not support the audio tag.
+					</audio>
+                    <p> This audio file is an instrumental track designed for testing HTML5 audio functionality. The melody creates a smooth and immersive listening experience, making it suitable for background music, website sound elements, or media integration.
+                         Click play to explore how audio enhances web development</p>
+
+					<h2>Video</h2>
+					<video controls width="320">
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+                    <p>This video showcases the mesmerizing rotation of planet Earth, highlighting its dynamic movement in space. As the Earth spins, the interplay of light and shadow across continents and oceans demonstrates the planet’s continuous motion. 
+                        This visual representation serves as an excellent example of how celestial bodies function in our solar system</p>
+
+
+
+				</main>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>

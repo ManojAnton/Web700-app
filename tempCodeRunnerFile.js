@@ -1,0 +1,1 @@
+const collegeData = require(".modules/collegeData.js");
